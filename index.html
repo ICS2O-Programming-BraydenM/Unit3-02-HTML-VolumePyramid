@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+<!-- metadata -->
+    <meta charset="utf-8">
+    <meta name="description" content="User Input, with JavaScript">
+    <meta name="keywords" content="immaculata, ics2o">
+    <meta name="author" content="Brayden MacMillan">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- For Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./fav_index/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./fav_index/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./fav_index/favicon-16x16.png">
+    <link rel="manifest" href="./fav_index/site.webmanifest">
+
+<!-- Link to CSS file -->
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!-- To use Google's MDL -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.bluegreen.min.css">
+    <title>Volume of a triangular prism in JS</title>
+  </head>
+  <body>
+    <center>
+<!-- Adding a JavaScript button -->
+    <script src="./js/script.js"></script>
+    <h1 style="background-color:turquoise"><font face="Georgia">Volume of a Triangular Prism in JS</font></h1>
+    <p>
+      <h3 style="background-color:lightgreen"><font face="Garamond">Enter the dimensions of your triangular prism:</font></h3>
+      <form action="javascript:payClicked()">
+        <label for="Side-a">Side a (m):</label>
+        <input type="number" step="any" id="side-a" placeholder="Side A"><br><br>
+        <label for="side-b">Side b (m):</label>
+        <input type="number" step="any" id="side-b" placeholder="Side B"><br><br>
+        <label for="Height">Height (m):</label>
+        <input type="number" step="any" id="height" placeholder="Height"><br><br>
+        <input type="submit" value="Calculate Volume">
+      </form>
+    </p>
+		<!-- Create a space where the user information will be displayed -->
+		<div id="display-results">
+    	<div id="side-a"></div>
+      <div id="side-b"></div>
+			<div id="height"></div>
+		</div>
+
+<!-- Adding an image -->
+      <img src="./images/Beans.PNG" alt="Trapezoid" width="500" length="500">
+      
+<!-- Slider with Starting Value -->
+			<h4 style="color:green">How much do you like math?</h4>
+			<input class="mdl-slider mdl-js-slider" type="range" min="0" max="100" value="25" tabindex="0">
+
+    </center>
+  </body>
+</html>
